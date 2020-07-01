@@ -10,13 +10,13 @@
 		content="This is meta description">
 	
 	<meta name="author" content="Sabotage">
-	<meta name="generator" content="Hugo 0.67.1" />
+	<meta name="generator" content="Hugo 0.73.0" />
 
 	<!-- plugins -->
 	
 	<link rel="stylesheet" href="https://sabotagecraftbeer.github.io/plugins/bootstrap/bootstrap.min.css ">
 	
-	<link rel="stylesheet" href="https://sabotagecraftbeer.github.io/plugins/themify-icons/themify-icons.css ">
+	<link rel="stylesheet" href="https://sabotagecraftbeer.github.io/plugins/fontawesome-free/fontawesome.css ">
 	
 	<link rel="stylesheet" href="https://sabotagecraftbeer.github.io/plugins/magnific-popup/magnific-popup.css ">
 	
@@ -29,14 +29,12 @@
 	
 	<link rel="stylesheet" href="https://sabotagecraftbeer.github.io/css/style.min.css" media="screen">
 
-  <!-- Custom stylesheet - for your changes -->
-  <link rel="stylesheet" href="/css/custom.css " media="screen">
-
 	<!--Favicon-->
 	<link rel="shortcut icon" href="https://sabotagecraftbeer.github.io/images/favicon.png " type="image/x-icon">
 	<link rel="icon" href="https://sabotagecraftbeer.github.io/images/favicon.png " type="image/x-icon">
 
 </head>
+
 
 <body id="body" data-spy="scroll" data-target=".navbar" data-offset="55">
   <div id="content">
@@ -65,7 +63,7 @@
 
 			<div class="collapse navbar-collapse" id="navigation">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item"><a class="nav-link" href="#body">Home</a></li>
+					<li class="nav-item"><a class="nav-link" href="/en">Home</a></li>
 					
 
 					
@@ -75,35 +73,20 @@
 					<li class="nav-item"><a class="nav-link" href="/en#portfolio">Nos bières</a>
 					</li>
 					
-					<li class="nav-item"><a class="nav-link" href="/en#team">Le crew</a>
-					</li>
-					
-					<li class="nav-item"><a class="nav-link" href="/en#blog">Actu</a>
+					<li class="nav-item"><a class="nav-link" href="/en#team">Les saboteurs</a>
 					</li>
 					
 					<li class="nav-item"><a class="nav-link" href="/en#contact">Contact</a>
 					</li>
 					
 					
-					
+
 
 					
-					
+
 				</ul>
 				
 				<select id="select-language" onchange="location = this.value;">
-					
-					
-					
-					
-					
-					
-					
-					
-					<option id="fr" value="https://sabotagecraftbeer.github.io/blog/simple-blog-post-2/">Fr</option>
-					
-					
-					
 					
 					
 					
@@ -127,6 +110,7 @@
 	</div>
 </section>
 
+
 <section class="section">
   <div class="container">
     <div class="row">
@@ -136,7 +120,7 @@
           <li class="list-inline-item"><a href="/en/author/john-doe/">John Doe</a></li>
           <li class="list-inline-item">Wednesday, Sep 12, 2018</li>
         </ul>
-        <img class="img-fluid mb-50" src="https://sabotagecraftbeer.github.io/images/blog/blog-post-2.jpg" alt="blog-image">
+        <img class="img-fluid mb-50 lozad" data-src="https://sabotagecraftbeer.github.io/images/blog/blog-post-2.jpg" alt="blog-image">
       </div>
       <div class="col-lg-8 offset-lg-2">
         <div class="post-single-content">
@@ -148,6 +132,7 @@
 <p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</p>
 <p>Sed porttitor lectus nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla porttitor accumsan tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Quisque velit nisi, pretium ut lacinia in, elementum id enim.</p>
 
+          <a href="">J&#39;en veux !</a>
         </div>
         
         
@@ -267,11 +252,13 @@
 				<div class="social-icon">
 					<ul class="list-inline">
 						
-						<li class="list-inline-item"><a href="https://www.facebook.com/sabotagecraftbeer/"><i class="ti-facebook"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.facebook.com/sabotagecraftbeer/"><i class="fab fa-facebook"></i></a></li>
 						
-						<li class="list-inline-item"><a href="https://www.instagram.com/sabotage.craftbeer/"><i class="ti-instagram"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.instagram.com/sabotage.craftbeer/"><i class="fab fa-instagram"></i></a></li>
 						
-						<li class="list-inline-item"><a href="#"><i class="ti-twitter-alt"></i></a></li>
+						<li class="list-inline-item"><a href="#"><i class="fab fa-spotify"></i></a></li>
+						
+						<li class="list-inline-item"><a href="https://untappd.com/w/sabotage/431413"><i class="fab fa-untappd"></i></a></li>
 						
 					</ul>
 				</div>
@@ -282,7 +269,10 @@
 						<img src="https://sabotagecraftbeer.github.io/images/logo.png" alt="Sabotage Craftbeer" />
 					</a>
 					<br>
+                    <p>L’abus d’alcool est dangereux pour la santé ! L’abus de réglementation aussi !</p>
+                    <p><img src="https://sabotagecraftbeer.github.io/images/logo-femme2.png" alt="alcool not for pregnant women" height=36em />Déconseillé aux femmes enceinte et aux gros avec queue de cheval !</p>
 					<p>copyright © 2019 <a href="https://gethugothemes.com">gethugothemes</a> all right reserved</p>
+                    <p><a href="https://sabotagecraftbeer.github.io/author/mentions-legales">Mentions légales</a></p>
 				</div>
 			</div>
 		</div>
@@ -315,6 +305,7 @@
 <script src="https://sabotagecraftbeer.github.io/js/script.min.js"></script>
 
 <!-- google analitycs -->
+
 </body>
 
 </html>
