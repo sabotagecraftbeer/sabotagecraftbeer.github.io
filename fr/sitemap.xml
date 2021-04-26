@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://sabotagecraftbeer.com/blog/</loc>
-    <lastmod>2020-04-02T23:00:03+02:00</lastmod>
+    <lastmod>2021-04-26T15:27:00+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -14,6 +14,26 @@
                 rel="alternate"
                 hreflang="fr"
                 href="https://sabotagecraftbeer.com/blog/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://sabotagecraftbeer.com/blog/molotov/</loc>
+    <lastmod>2021-04-26T15:27:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sabotagecraftbeer.com/</loc>
+    <lastmod>2021-04-26T15:27:00+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://sabotagecraftbeer.com/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://sabotagecraftbeer.com/"
                 />
   </url>
   
@@ -29,21 +49,6 @@
                 rel="alternate"
                 hreflang="fr"
                 href="https://sabotagecraftbeer.com/blog/full-metal-emu/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://sabotagecraftbeer.com/</loc>
-    <lastmod>2020-04-02T23:00:03+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://sabotagecraftbeer.com/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://sabotagecraftbeer.com/"
                 />
   </url>
   
